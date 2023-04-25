@@ -30,11 +30,16 @@
                 </div>
                 <div id="logradouro">
                     <label for="endereco">Endereço</label>
-                    <input type="text" name="endereco" id="endereco">
-                    <label for="numero_casa">N</label>
+                    <input type="text" name="endereco" id="endereco" autocomplete="off" checked>
+                    <label for="numero_casa">Nº</label>
                     <input type="number" name="numero_casa" id="numero_casa" autocomplete="off" checked>
                 </div>                
-                
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" id="bairro" autocomplete="off" checked>
+                <label for="nome_mae">Nome da mãe</label>
+                <input type="text" name="nome_mae" id="nome_mae" autocomplete="off" checked>
+                <label for="nome_pai">Nome do pai</label>
+                <input type="text" name="nome_pai" id="nome_pai" autocomplete="off" checked>
                 <button type="submit">Enviar</button>
             </form>
         </section>
